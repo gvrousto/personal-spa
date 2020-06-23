@@ -1,15 +1,14 @@
 import React from 'react';
-import Navblock from './components/navblock/Navblock';
+import Navbar from './components/navbar/Navbar';
 import Home from './components/home/Home';
 import Experience from './components/experience/Experience';
 import {BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
-import './App.css';
 
 function App() {
   return (
     <div className="app-container">
       <Router>
-        <Navblock/>
+        <Navbar/>
         <Switch>
           <Route exact path="/home">
             <Home/>

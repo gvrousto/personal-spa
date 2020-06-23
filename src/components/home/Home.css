@@ -5,3 +5,15 @@
   width: 100vw;
   height: 100vh;
 }
+
+.image-container {
+  width: 500px;
+}
+
+.home-footer {
+  font-size: 10px;
+}
+
+.home-header {
+  font-size: 40px;
+}
