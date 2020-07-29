@@ -1,0 +1,57 @@
+[
+  {
+    "id": "Discover",
+    "image": "/static/icons/discover.png",
+    "timeRange": "May 2019 - May 2020",
+    "contentGroups": [
+      {
+        "text": ["This is some stuff I did"],
+        "images": ["/static/images/preservation/1.png"]
+      },
+      {
+        "text": ["This is some MORE stuff I did"],
+        "images": ["/static/images/preservation/2.png"]
+      },
+      {
+        "text": ["And so forth"],
+        "images": ["/static/images/preservation/3.png"]
+      }
+    ]
+  },
+  {
+    "id": "Oqullo",
+    "image": "/static/icons/oqullo.png",
+    "timeRange": "May 2019 - May 2020",
+    "paragraphs": ["THis is some stuff I did", "This is some more stuff I did", "etcetcetc"]
+  },
+  {
+    "id": "Neighborhoods",
+    "image": "/static/icons/neighborhoods.jpeg",
+    "timeRange": "May 2019 - May 2020",
+    "paragraphs": ["THis is some stuff I did", "This is some more stuff I did", "etcetcetc"]
+  },
+  {
+    "id": "Labelling Tool",
+    "image": "/static/icons/VOTT.svg",
+    "timeRange": "May 2019 - May 2020",
+    "paragraphs": ["THis is some stuff I did", "This is some more stuff I did", "etcetcetc"]
+  },
+  {
+    "id": "Preservation",
+    "image": "/static/icons/preservation.png",
+    "timeRange": "May 2019 - May 2020",
+    "paragraphs": ["THis is some stuff I did", "This is some more stuff I did", "etcetcetc"]
+  },
+  {
+    "id": "Firestarter",
+    "image": "/static/icons/firestarter.png",
+    "timeRange": "May 2019 - May 2020",
+    "paragraphs": ["THis is some stuff I did", "This is some more stuff I did", "etcetcetc"]
+  },
+  {
+    "id": "DoIT",
+    "image": "/static/icons/DOIT.jpg",
+    "timeRange": "May 2019 - May 2020",
+    "paragraphs": ["THis is some stuff I did", "This is some more stuff I did", "etcetcetc"]
+  }
+]

@@ -1,19 +1,31 @@
-.home{
+.about-container{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  justify-content: space-around;
+  width: 800px;
   height: 100vh;
+  border-right: solid;
 }
 
-.image-container {
-  width: 500px;
+.about-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.home-footer {
-  font-size: 10px;
+.header-image {
+  width: 100px;
 }
 
-.home-header {
-  font-size: 40px;
+.about-content {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding-left: 20px;
+}
+
+.about-skills {
+  padding-top: 30px;
 }

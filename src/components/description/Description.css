@@ -1,0 +1,34 @@
+.description-container{
+  display: flex;
+  justify-content: space-around;
+  width: 1500px;
+}
+
+.description-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.description-logo {
+  width: 150px;
+}
+
+.description-content{
+  height: 100%;
+  width: 600px;
+  margin-top: 50px;
+}
+
+.content-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.content-image {
+  width: 400px;
+}
