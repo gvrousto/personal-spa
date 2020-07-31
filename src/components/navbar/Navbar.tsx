@@ -5,13 +5,7 @@ import { ReactComponent as NavMenu } from './NavMenu.svg';
 import { ReactComponent as NavExit } from './NavExit.svg';
 import "./Navbar.css";
 
-// const buttonClassName = (activeButton: string, buttonName: string) => {
-//   if() {
-//
-//   }
-// };
-
-const generateMobileNav = (expanded: boolean, setExpanded: (set: boolean)=>void) => {
+const generateMobileNav = (expanded: boolean) => {
   if(expanded){
     return (
       <div>
@@ -45,7 +39,7 @@ const Navbar = () => {
           {expanded ? <NavExit onClick={()=>setExpanded(!expanded)} className="navbar-svg" /> : <NavMenu onClick={()=>setExpanded(!expanded)} className="navbar-svg" /> }
         </div>
         <div className="portfolio-text">I am a Full Stack Software Engineer, with a passion for automation.</div>
-        {generateMobileNav(expanded, setExpanded)}
+        {generateMobileNav(expanded)}
       </div>
     )
   } else {
