@@ -1,10 +1,17 @@
+.header-container {
+  width: 100%;
+  height: 150px;
+  flex-shrink: 0;
+  display: inline-flex;
+  background-color: #73829F;
+  flex-direction: column;
+}
+
 .navbar-container {
   display: flex;
+  padding-top: 20px;
   flex-direction: row;
   align-items: center;
-  height: 13%;
-  background-color: #73829F;
-  width: 100%;
 }
 
 .navbar-text {
@@ -46,20 +53,52 @@
   text-decoration: none;
 }
 
-@media only screen and (max-width: 768px) {
-  .navbar-text {
-    font-size: 34px;
-  }
+.portfolio-text {
+  font-size: 30px;
+  color: #FFFFFF;
+  font-family: 'Raleway';
+  margin-left: 70px;
+  margin-bottom: 40px;
 }
 
-/* Medium devices (landscape tablets, 768px and down) */
-@media only screen and (max-width: 425px) {
-  .navbar-container {
-    height: 100px;
-  }
+
+
+@media only screen and (max-width: 768px) {
   .navbar-text {
     color: #FFFFFF;
     font-family: 'Raleway';
+    font-size: 32px;
+    margin-left: 70px;
+  }
+  .navbar-svg {
+    margin-right: 30px;
+  }
+  .navbar-button {
+    margin-bottom: 20px;
+    margin-left: 70px;
+  }
+  .portfolio-text {
+    width: 500px;
+  }
+}
+
+
+@media only screen and (max-width: 425px) {
+  .navbar-text {
     margin-left: 20px;
+  }
+  .navbar-svg {
+    margin-right: 15px;
+  }
+  .navbar-button {
+    margin-left: 20px;
+  }
+  .portfolio-text {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  .portfolio-text {
+    width: 320px;
   }
 }

@@ -7,8 +7,8 @@ import "./App.css";
 function App() {
   const [activeCard, setActiveCard] = useState("");
   return (
-    <div className="app-container">
-      <Router>
+    <Router>
+      <div className="app-container">
         <Navbar />
         <Switch>
           <Route exact path="/portfolio">
@@ -18,21 +18,9 @@ function App() {
             <Redirect to="portfolio"/>
           </Route>
         </Switch>
-      </Router>
-    </div>
+      </div>
+  </Router>
   );
 }
-
-// <Navbar/>
-
-// <Route exact path="/about">
-//   <Home/>
-// </Route>
-// <Route exact path="/experience">
-//   <Experience activeCard={activeCard} setActiveCard={setActiveCard}/>
-// </Route>
-// <Route path="/">
-//   <Redirect to="/experience"/>
-// </Route>
 
 export default App;

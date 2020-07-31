@@ -1,5 +1,10 @@
 .portfolio-container {
-  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-grow: 1;
+  overflow-y: auto;
+  background-color: #73829F;
 }
 
 .portfolio-container::-webkit-scrollbar {
@@ -15,31 +20,13 @@
   border-radius: 5px;
 }
 
-.portfolio-text {
-  font-size: 30px;
-  color: #FFFFFF;
-  font-family: 'Raleway';
-  margin-left: 70px;
-  margin-bottom: 40px;
-}
-
 .experience-container {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  overflow: auto;
-}
-
-.experience-card {
-  border-radius: 10px;
-  margin-right: 20px;
-  margin-top: 10px;
-  display: flex;
   flex-direction: column;
-  width: 400px;
-  height: 300px;
-  justify-content: center;
-  align-items: center;
+  width: 405px;
+  height: 330px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .experience-image-container {
@@ -47,60 +34,42 @@
   justify-content: center;
   align-items: center;
   background-color: #FFFFFF;
-  width: 100%;
-  height: 85%;
+  height: 251px;
   border-radius: 8px;
 }
 
 .experience-image {
   border-radius: 8px;
   max-height: 80%;
-  max-width: 100%;
+  max-width: 80%;
   object-fit: contain;
 }
 
 .experience-text {
+  display: flex;
   font-size: 30px;
   color: #FFFFFF;
   text-decoration: none;
   font-family: 'Raleway';
+  justify-content: center;
 }
 
-.experience-text {
-  font-size: 30px;
-  color: #FFFFFF;
-  text-decoration: none;
-}
-
-.experience-link {
-  margin-right: 10px;
-  margin-bottom: 50px;
-}
-
-.experience-link:hover {
-  text-decoration: none;
-}
-
-
-/* Medium devices (landscape tablets, 768px and down) */
-@media only screen and (max-width: 970px) {
+@media only screen and (min-width: 426px) and (max-width: 768px){
   .experience-container {
-    justify-content: center;
+    width: 300px;
+    height: 271px;
+  }
+  .experience-image-container {
+    height: 200px;
   }
 }
 
 @media only screen and (max-width: 425px) {
-  .experience-card {
-    margin-right: 0px;
-    margin-top: 0px;
+  .experience-container {
     width: 300px;
+    height: 271px;
   }
-  .experience-link {
-    margin-right: 0px;
-  }
-  .portfolio-text {
-    font-size: 20px;
-    margin-left: 20px;
-    margin-bottom: 10px;
+  .experience-image-container {
+    height: 200px;
   }
 }
