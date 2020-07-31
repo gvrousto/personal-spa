@@ -8,7 +8,7 @@ import "./Navbar.css";
 const generateMobileNav = (expanded: boolean, setExpanded: (set: boolean)=>void) => {
   if(expanded){
     return (
-      <div className="header-container">
+      <div>
         <Link className="navbar-button-text" to="/about">
           <button className="navbar-button">About</button>
         </Link>
