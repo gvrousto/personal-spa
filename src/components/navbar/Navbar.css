@@ -33,7 +33,8 @@
   font-size: 30px;
   border: none;
 }
-.navbar-button:focus {
+
+.navbar-button:active:focus {
   background-color: #73829F;
   color: #FFFFFF;
   border-radius: 13px;

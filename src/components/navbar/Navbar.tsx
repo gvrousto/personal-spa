@@ -5,6 +5,12 @@ import { ReactComponent as NavMenu } from './NavMenu.svg';
 import { ReactComponent as NavExit } from './NavExit.svg';
 import "./Navbar.css";
 
+// const buttonClassName = (activeButton: string, buttonName: string) => {
+//   if() {
+//
+//   }
+// };
+
 const generateMobileNav = (expanded: boolean, setExpanded: (set: boolean)=>void) => {
   if(expanded){
     return (
