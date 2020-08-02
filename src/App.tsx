@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import Portfolio from './components/portfolio/Portfolio';
+import Description from "./components/description/Description";
 import Navbar from "./components/navbar/Navbar";
 import {BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 import "./App.css";
@@ -14,8 +15,11 @@ function App() {
           <Route exact path="/portfolio">
             <Portfolio />
           </Route>
+          <Route exact path="/description/:experience">
+            <Description />
+          </Route>
           <Route>
-            <Redirect to="portfolio"/>
+            <Redirect to="/description/Discover"/>
           </Route>
         </Switch>
       </div>

@@ -3,55 +3,84 @@
     "id": "Discover",
     "image": "/static/icons/discover.svg",
     "timeRange": "May 2019 - May 2020",
-    "contentGroups": [
+    "title": "Software Engineer",
+    "paragraphs": [
       {
-        "text": ["This is some stuff I did"],
-        "images": ["/static/images/preservation/1.png"]
-      },
-      {
-        "text": ["This is some MORE stuff I did"],
-        "images": ["/static/images/preservation/2.png"]
-      },
-      {
-        "text": ["And so forth"],
-        "images": ["/static/images/preservation/3.png"]
+        "title": "THis is some stuff I did"
       }
-    ]
+    ],
+    "imageContent": []
   },
   {
     "id": "Oqullo",
     "image": "/static/icons/oqullo.png",
     "timeRange": "May 2019 - May 2020",
-    "paragraphs": ["THis is some stuff I did", "This is some more stuff I did", "etcetcetc"]
+    "title": "Software Engineer",
+    "paragraphs": [
+      {
+        "title": "THis is some stuff I did"
+      }
+    ],
+    "imageContent": []
   },
   {
     "id": "Neighborhoods",
     "image": "/static/icons/neighborhoods.jpeg",
     "timeRange": "May 2019 - May 2020",
-    "paragraphs": ["THis is some stuff I did", "This is some more stuff I did", "etcetcetc"]
+    "title": "Software Engineer",
+    "paragraphs": [
+      {
+        "title": "THis is some stuff I did"
+      }
+    ],
+    "imageContent": []
   },
   {
     "id": "Labelling Tool",
     "image": "/static/icons/VOTT.svg",
     "timeRange": "May 2019 - May 2020",
-    "paragraphs": ["THis is some stuff I did", "This is some more stuff I did", "etcetcetc"]
+    "title": "Software Engineer",
+    "paragraphs": [
+      {
+        "title": "THis is some stuff I did"
+      }
+    ],
+    "imageContent": []
   },
   {
     "id": "Preservation",
     "image": "/static/icons/preservation.png",
     "timeRange": "May 2019 - May 2020",
-    "paragraphs": ["THis is some stuff I did", "This is some more stuff I did", "etcetcetc"]
+    "title": "Software Engineer",
+    "paragraphs": [
+      {
+        "title": "THis is some stuff I did"
+      }
+    ],
+    "imageContent": []
   },
   {
     "id": "Firestarter",
     "image": "/static/icons/firestarter.png",
     "timeRange": "May 2019 - May 2020",
-    "paragraphs": ["THis is some stuff I did", "This is some more stuff I did", "etcetcetc"]
+    "title": "Software Engineer",
+    "paragraphs": [
+      {
+        "title": "THis is some stuff I did"
+      }
+    ],
+    "imageContent": []
   },
   {
     "id": "DoIT",
     "image": "/static/icons/DOIT.jpg",
     "timeRange": "May 2019 - May 2020",
-    "paragraphs": ["THis is some stuff I did", "This is some more stuff I did", "etcetcetc"]
+    "title": "Software Engineer",
+    "paragraphs": [
+      {
+        "title": "THis is some stuff I did"
+      }
+    ],
+    "imageContent": []
   }
 ]

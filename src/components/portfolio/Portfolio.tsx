@@ -12,7 +12,7 @@ const Portfolio = () => {
   let experienceCards = experiences.map((experience): JSX.Element => {
       let experiencePath = `/description/${experience.id}`;
       return(
-        <div className="experience-container">
+        <Link className="experience-container" to={experiencePath}>
           <div className="experience-image-container">
             <img
               className="experience-image"
@@ -23,7 +23,7 @@ const Portfolio = () => {
             <div className="experience-text">
               {experience.id}
             </div>
-        </div>
+        </Link>
       );
   });
   return (
@@ -32,19 +32,4 @@ const Portfolio = () => {
     </div>
   )
 };
-// <div className="experience-container">{experienceCards}</div>
-//       <Link className="experience-link" to={experiencePath}>
-//         <div key={experience.id} className="experience-card">
-//           <div className="experience-image-container">
-//             <img
-//               className="experience-image"
-//               src={experience.image}
-//               alt={experience.id}
-//             />
-//           </div>
-//             <div className="experience-text">
-//               {experience.id}
-//             </div>
-//         </div>
-//       </Link>
 export default Portfolio;
