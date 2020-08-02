@@ -3,6 +3,7 @@ import {Image} from "react-bootstrap";
 import { useParams } from "react-router-dom";
 import experiences from "../portfolio/Experience.json";
 import "./Description.css";
+import ImageGallery from 'react-image-gallery';
 
 interface DescriptionParams {
   experience: string;
@@ -11,9 +12,20 @@ interface DescriptionParams {
 const generateDescriptionImageCarousel = (images: string[]): JSX.Element | null => {
   if(images.length > 0){
     return (
-      <div className="description-image-container">
-        Where images might go
-      </div>
+        <ImageGallery additionalClass="image-carousel" items={[
+          {
+            original: 'https://picsum.photos/id/1018/1000/600/',
+            thumbnail: 'https://picsum.photos/id/1018/250/150/',
+          },
+          {
+            original: 'https://picsum.photos/id/1015/1000/600/',
+            thumbnail: 'https://picsum.photos/id/1015/250/150/',
+          },
+          {
+            original: 'https://picsum.photos/id/1019/1000/600/',
+            thumbnail: 'https://picsum.photos/id/1019/250/150/',
+          },
+        ]}/>
     );
   } else {
     return null;

@@ -21,7 +21,7 @@
         "title": "THis is some stuff I did"
       }
     ],
-    "imageContent": []
+    "imageContent": ["/static/icons/discover.svg"]
   },
   {
     "id": "Neighborhoods",
