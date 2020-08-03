@@ -38,6 +38,7 @@ const generateMobileNav = (expanded: boolean, activePath: string) => {
 
 const Navbar = () => {
   const [activePath, setActivePath] = useState<string>("");
+
   const [expanded, setExpanded] = useState<boolean>(false);
   let breakPoint = useMediaQuery('(max-width:768px)');
   if(breakPoint){

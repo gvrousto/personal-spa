@@ -66,8 +66,6 @@ export default function Desctiption(){
           <div className="description-item">Tthis is he paragraph underneath the title</div>
           <div className="description-title">Another P Title</div>
           <div className="description-item">Cartooons Cartooons Cartooons Cartooons Cartooons</div>
-        </div>
-        <div>
           {generateDescriptionImageCarousel(experience.imageContent)}
         </div>
       </div>
