@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { useHistory } from "react-router-dom";
@@ -37,10 +37,9 @@ const generateMobileNav = (expanded: boolean, activePath: string) => {
 };
 
 const Navbar = () => {
-  const activePath = useHistory().location.pathname;
+  const [activePath, setActivePath] = useState<string>("");
   const [expanded, setExpanded] = useState<boolean>(false);
   let breakPoint = useMediaQuery('(max-width:768px)');
-  console.log(breakPoint);
   if(breakPoint){
     return (
       <div className="header-container">

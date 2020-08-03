@@ -1,4 +1,5 @@
-import React, {useState} from 'react';
+import React from 'react';
+import Contact from "./components/contact/Contact";
 import Portfolio from './components/portfolio/Portfolio';
 import Description from "./components/description/Description";
 import Navbar from "./components/navbar/Navbar";
@@ -6,12 +7,14 @@ import {BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-do
 import "./App.css";
 
 function App() {
-  const [activeCard, setActiveCard] = useState("");
   return (
     <Router>
       <div className="app-container">
         <Navbar />
         <Switch>
+          <Route exact path="/contact">
+            <Contact />
+          </Route>
           <Route exact path="/portfolio">
             <Portfolio />
           </Route>
