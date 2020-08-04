@@ -1,4 +1,5 @@
 import React from 'react';
+import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Portfolio from './components/portfolio/Portfolio';
 import Description from "./components/description/Description";
@@ -12,6 +13,9 @@ function App() {
       <div className="app-container">
         <Navbar />
         <Switch>
+          <Route exact path="/about">
+            <About />
+          </Route>
           <Route exact path="/contact">
             <Contact />
           </Route>

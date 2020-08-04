@@ -11,7 +11,7 @@
   flex-direction: column;
   flex-grow: 1;
   background-color: #73829F;
-  overflow-y: auto;
+  overflow: scroll;
 }
 
 .description-container::-webkit-scrollbar {
@@ -19,7 +19,15 @@
 }
 
 .description-container::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.4);
+}
+
+.description-container::-webkit-scrollbar-corner {
+/*
+background-image: url(resources/corner.png);
+background-repeat: no-repeat;
+*/
+background-color: #73829F;
 }
 
 .description-container::-webkit-scrollbar-thumb {

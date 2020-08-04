@@ -6,7 +6,12 @@
     "title": "Software Engineer",
     "paragraphs": [
       {
-        "title": "THis is some stuff I did"
+        "title": "THis is some stuff I did",
+        "paragraph": "This is a paragraph for some stuff i did"
+      },
+      {
+        "title": "THis is some stuff I did",
+        "paragraph": "This is a paragraph for some stuff i did"
       }
     ],
     "imageContent": []
@@ -18,10 +23,24 @@
     "title": "Software Engineer",
     "paragraphs": [
       {
-        "title": "THis is some stuff I did"
+        "title": "THis is some stuff I did",
+        "paragraph": "This is a paragraph for some stuff i did"
       }
     ],
-    "imageContent": ["/static/icons/discover.svg"]
+    "imageContent": [
+      {
+        "original": "/static/oqullo-app/1.png",
+        "thumbnail": "/static/oqullo-app/1.png"
+      },
+      {
+        "original": "/static/oqullo-app/2.png",
+        "thumbnail": "/static/oqullo-app/2.png"
+      },
+      {
+        "original": "/static/oqullo-app/3.png",
+        "thumbnail": "/static/oqullo-app/3.png"
+      }
+    ]
   },
   {
     "id": "Neighborhoods",
@@ -30,7 +49,8 @@
     "title": "Software Engineer",
     "paragraphs": [
       {
-        "title": "THis is some stuff I did"
+        "title": "THis is some stuff I did",
+        "paragraph": "This is a paragraph for some stuff i did"
       }
     ],
     "imageContent": []
@@ -42,7 +62,8 @@
     "title": "Software Engineer",
     "paragraphs": [
       {
-        "title": "THis is some stuff I did"
+        "title": "THis is some stuff I did",
+        "paragraph": "This is a paragraph for some stuff i did"
       }
     ],
     "imageContent": []
@@ -54,7 +75,8 @@
     "title": "Software Engineer",
     "paragraphs": [
       {
-        "title": "THis is some stuff I did"
+        "title": "THis is some stuff I did",
+        "paragraph": "This is a paragraph for some stuff i did"
       }
     ],
     "imageContent": []
@@ -66,7 +88,8 @@
     "title": "Software Engineer",
     "paragraphs": [
       {
-        "title": "THis is some stuff I did"
+        "title": "THis is some stuff I did",
+        "paragraph": "This is a paragraph for some stuff i did"
       }
     ],
     "imageContent": []
@@ -78,7 +101,8 @@
     "title": "Software Engineer",
     "paragraphs": [
       {
-        "title": "THis is some stuff I did"
+        "title": "THis is some stuff I did",
+        "paragraph": "This is a paragraph for some stuff i did"
       }
     ],
     "imageContent": []

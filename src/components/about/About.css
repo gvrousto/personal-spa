@@ -1,0 +1,13 @@
+.about-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-grow: 1;
+  width: 100%;
+  background-color: #73829F;
+  overflow: auto;
+}
+
+.about-headshot{
+  width: 100%;
+}

@@ -8,23 +8,10 @@ interface DescriptionParams {
   experience: string;
 }
 
-const generateDescriptionImageCarousel = (images: string[]): JSX.Element | null => {
+const generateDescriptionImageCarousel = (images: any[]): JSX.Element | null => {
   if(images.length > 0){
     return (
-        <ImageGallery additionalClass="image-carousel" items={[
-          {
-            original: 'https://picsum.photos/id/1018/1000/600/',
-            thumbnail: 'https://picsum.photos/id/1018/250/150/',
-          },
-          {
-            original: 'https://picsum.photos/id/1015/1000/600/',
-            thumbnail: 'https://picsum.photos/id/1015/250/150/',
-          },
-          {
-            original: 'https://picsum.photos/id/1019/1000/600/',
-            thumbnail: 'https://picsum.photos/id/1019/250/150/',
-          },
-        ]}/>
+        <ImageGallery additionalClass="image-carousel" items={images}/>
     );
   } else {
     return null;
@@ -33,9 +20,18 @@ const generateDescriptionImageCarousel = (images: string[]): JSX.Element | null 
 
 export default function Desctiption(){
   let params = useParams<DescriptionParams>();
+
   let experience = experiences.filter((experience) => {
     return experience.id === params.experience;
   })[0];
+  let paragraphs = experience.paragraphs.map((paragraph)=>{
+    return(
+      <div>
+        <div className="description-title">{paragraph.title}</div>
+        <div className="description-item">{paragraph.paragraph}</div>
+      </div>
+    );
+  });
   return(
     <div className="description-container">
       <div className="description-header">
@@ -54,18 +50,7 @@ export default function Desctiption(){
       </div>
       <div className="description-body">
         <div className="description-content">
-          <div className="description-title">his is my trying out a very long title that I might right to give background</div>
-          <div className="description-item">
-            Tthis is he paragraph underneath the title
-            Tthis is he paragraph underneath the title
-            Tthis is he paragraph underneath the title
-            Tthis is he paragraph underneath the title
-            Tthis is he paragraph underneath the title
-          </div>
-          <div className="description-title">Another P Title</div>
-          <div className="description-item">Tthis is he paragraph underneath the title</div>
-          <div className="description-title">Another P Title</div>
-          <div className="description-item">Cartooons Cartooons Cartooons Cartooons Cartooons</div>
+          {paragraphs}
           {generateDescriptionImageCarousel(experience.imageContent)}
         </div>
       </div>
