@@ -1,13 +1,137 @@
 .about-container {
   display: flex;
-  justify-content: space-around;
-  flex-direction: row;
   flex-grow: 1;
   width: 100%;
+  justify-content: space-around;
   background-color: #73829F;
   overflow: auto;
+  min-height: min-content;
 }
 
+.about-container::-webkit-scrollbar {
+  width: 0.75em;
+}
+
+.about-container::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.3);
+}
+
+.about-container::-webkit-scrollbar-thumb {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+}
+.about-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #FFFFFF;
+  font-family: "Raleway";
+  font-size: 22px;
+}
+.about-image-container {
+  height: 300px;
+}
 .about-headshot{
-  width: 100%;
+  max-width: 100%;
+  max-height: 100%
+}
+.about-paragraph {
+  width: 400px;
+  height: min-content;
+}
+
+.about-experience {
+  display: flex;
+  flex-direction: column;
+  font-family: "Raleway";
+}
+
+.experience-bubble{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 52px;
+  width: max-content;
+  border-radius: 13px;
+  background-color: #FFFFFF;
+  color: #73829F;
+  font-size: 30px;
+  border: none;
+}
+
+.experience-title {
+  color: #FFFFFF;
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+.experience-content {
+  font-size: 22px;
+  color: #FFFFFF;
+  padding-bottom: 20px;
+}
+
+.about-skills {
+  font-family: "Raleway";
+  display: flex;
+  flex-direction: column;
+  color: #FFFFFF;
+}
+
+.skills-title {
+  font-size: 30px;
+}
+
+.skill-item:before {
+  content:"\A";
+  width:8px;
+  height:8px;
+  border-radius:50%;
+  background: #FFFFFF;
+  display:inline-block;
+  margin-right: 10px;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .about-image-container {
+    height: 200px;
+  }
+  .about-paragraph {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .about-container {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #73829F;
+    justify-content: flex-start;
+    overflow: auto;
+  }
+  .about-content {
+    width: 90%;
+    align-items: center;
+  }
+  .about-experience {
+    width: 85%;
+    align-items: flex-start;
+  }
+  .about-paragraph {
+    width: auto;
+    height: min-content;
+  }
+  .about-skills {
+    width: 85%;
+    align-items: flex-start;
+  }
 }

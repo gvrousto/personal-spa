@@ -63,7 +63,7 @@ const Navbar = () => {
     return (
       <div className="header-container">
         <div className="navbar-container">
-          <Link onClick={()=>setExpanded(!expanded)} className="navbar-text" to="/portfolio">Gus Vroustouris</Link>
+          <Link onClick={() => {setExpanded(false); setActivePath("/portfolio");}} className="navbar-text" to="/portfolio">Gus Vroustouris</Link>
           {expanded ? <NavExit onClick={()=>setExpanded(!expanded)} className="navbar-svg" /> : <NavMenu onClick={()=>setExpanded(!expanded)} className="navbar-svg" /> }
         </div>
         <div className="portfolio-text">I am a Full Stack Software Engineer, with a passion for automation.</div>
@@ -74,7 +74,7 @@ const Navbar = () => {
     return (
       <div className="header-container">
         <div className="navbar-container">
-          <Link className="navbar-text" to="/portfolio">Gus Vroustouris</Link>
+          <Link onClick={() => setActivePath("/portfolio")} className="navbar-text" to="/portfolio">Gus Vroustouris</Link>
             <Link className="navbar-button-text" to="/about">
               <button onClick={() => {
                   setActivePath("/about")
