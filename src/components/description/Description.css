@@ -5,14 +5,19 @@
   justify-content: center;
   margin-top: 20px;
 }
+.carousel-container {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  min-height: min-content;
+}
 
 .description-container{
   display: flex;
   flex-direction: column;
   flex-grow: 1;
   background-color: #73829F;
-  min-height: min-content;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .description-container::-webkit-scrollbar {

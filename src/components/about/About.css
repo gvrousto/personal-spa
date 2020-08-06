@@ -4,8 +4,7 @@
   width: 100%;
   justify-content: space-around;
   background-color: #73829F;
-  overflow: auto;
-  min-height: min-content;
+  overflow-y: auto;
 }
 
 .about-container::-webkit-scrollbar {
@@ -26,6 +25,7 @@
   flex-direction: column;
   color: #FFFFFF;
   font-family: "Raleway";
+  min-height: min-content;
   font-size: 22px;
 }
 .about-image-container {
@@ -42,6 +42,7 @@
 
 .about-experience {
   display: flex;
+  min-height: min-content;
   flex-direction: column;
   font-family: "Raleway";
 }
@@ -74,6 +75,7 @@
 .about-skills {
   font-family: "Raleway";
   display: flex;
+  min-height: min-content;
   flex-direction: column;
   color: #FFFFFF;
 }

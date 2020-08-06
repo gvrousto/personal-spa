@@ -50,8 +50,12 @@ export default function Desctiption(){
       </div>
       <div className="description-body">
         <div className="description-content">
+          <div className="paragraphs-container">
           {paragraphs}
-          {generateDescriptionImageCarousel(experience.imageContent)}
+          </div>
+          <div className="carousel-container">
+            {generateDescriptionImageCarousel(experience.imageContent)}
+          </div>
         </div>
       </div>
     </div>
