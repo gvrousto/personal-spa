@@ -19,26 +19,42 @@
   {
     "id": "Oqullo",
     "image": "/static/icons/oqullo.png",
-    "timeRange": "May 2019 - May 2020",
-    "title": "Software Engineer",
+    "timeRange": "Feb 2020 - May 2020",
+    "title": "Software Engineer Contractor",
     "paragraphs": [
       {
-        "title": "THis is some stuff I did",
-        "paragraph": "This is a paragraph for some stuff i did"
+        "title": "Flagship Application for Oqullo, a property analysis startup.",
+        "paragraph": "Coordinated closely with the founders to create an MVP1 to showcase their property analysis abilities to customers. Oqullo, the application, was created from scratch with a React frontend, NodeJS backend, and MongoDB database."
+      },
+      {
+        "title": "Application Overview",
+        "paragraph": "The application visualizes path density of customers on a property, and the store's capture rate of customers on the path. Customer path direction from a selected source. Other stores a customer visited from a selected source. A primary demographic breakdown with a sunburst chart. All which are filterable by time range, gender, and age demographic."
       }
     ],
     "imageContent": [
       {
-        "original": "/static/oqullo-app/1.png",
-        "thumbnail": "/static/oqullo-app/1.png"
+        "original": "/static/oqullo-app/a.png",
+        "thumbnail": "/static/oqullo-app/a.png"
       },
       {
-        "original": "/static/oqullo-app/2.png",
-        "thumbnail": "/static/oqullo-app/2.png"
+        "original": "/static/oqullo-app/b.png",
+        "thumbnail": "/static/oqullo-app/b.png"
       },
       {
-        "original": "/static/oqullo-app/3.png",
-        "thumbnail": "/static/oqullo-app/3.png"
+        "original": "/static/oqullo-app/c.png",
+        "thumbnail": "/static/oqullo-app/c.png"
+      },
+      {
+        "original": "/static/oqullo-app/d.png",
+        "thumbnail": "/static/oqullo-app/d.png"
+      },
+      {
+        "original": "/static/oqullo-app/e.png",
+        "thumbnail": "/static/oqullo-app/e.png"
+      },
+      {
+        "original": "/static/oqullo-app/f.png",
+        "thumbnail": "/static/oqullo-app/f.png"
       }
     ]
   },

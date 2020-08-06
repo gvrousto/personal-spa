@@ -131,9 +131,23 @@
   .about-paragraph {
     width: auto;
     height: min-content;
+    width: auto;
+    font-size: 18px;
   }
   .about-skills {
-    width: 85%;
+    width: 90%;
     align-items: flex-start;
+  }
+  .skill-item:before {
+    content:"\A";
+    width:4px;
+    height:4px;
+    border-radius:50%;
+    background: #FFFFFF;
+    display:inline-block;
+    margin-right: 8px;
+  }
+  .skill-item {
+    font-size: 18px;
   }
 }
