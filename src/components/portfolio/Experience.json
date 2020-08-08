@@ -2,7 +2,7 @@
   {
     "id": "Discover",
     "image": "/static/icons/discover.svg",
-    "timeRange": "May 2019 - May 2020",
+    "timeRange": "Jun 2019 - Present",
     "title": "Software Engineer",
     "paragraphs": [
       {
@@ -59,23 +59,10 @@
     ]
   },
   {
-    "id": "Neighborhoods",
-    "image": "/static/icons/neighborhoods.jpeg",
-    "timeRange": "May 2019 - May 2020",
-    "title": "Software Engineer",
-    "paragraphs": [
-      {
-        "title": "THis is some stuff I did",
-        "paragraph": "This is a paragraph for some stuff i did"
-      }
-    ],
-    "imageContent": []
-  },
-  {
     "id": "Labelling Tool",
     "image": "/static/icons/VOTT.svg",
-    "timeRange": "May 2019 - May 2020",
-    "title": "Software Engineer",
+    "timeRange": "Apr 2020 - May 2020",
+    "title": "Software Engineer Contractor",
     "paragraphs": [
       {
         "title": "THis is some stuff I did",
@@ -87,8 +74,42 @@
   {
     "id": "Preservation",
     "image": "/static/icons/preservation.png",
-    "timeRange": "May 2019 - May 2020",
-    "title": "Software Engineer",
+    "timeRange": "Jan 2020 - Feb 2020",
+    "title": "Web Developer",
+    "paragraphs": [
+      {
+        "title": "Web based shopping experience for a new clothing line",
+        "paragraph": "This was my first production application that received traffic from users. I learned a great deal about working with a customer to create a platform that fit their vision. It was also an interesting experience to see how users interacted with the platform, and what my short comings for UX/UI were. This was a React application hosted on GitHub Pages making GraphQL calls to Shopify API."
+      }
+    ],
+    "imageContent": [
+      {
+        "original": "/static/preservation/a.png",
+        "thumbnail": "/static/preservation/a.png"
+      },
+      {
+        "original": "/static/preservation/b.png",
+        "thumbnail": "/static/preservation/b.png"
+      },
+      {
+        "original": "/static/preservation/c.png",
+        "thumbnail": "/static/preservation/c.png"
+      },
+      {
+        "original": "/static/preservation/d.png",
+        "thumbnail": "/static/preservation/d.png"
+      },
+      {
+        "original": "/static/preservation/e.png",
+        "thumbnail": "/static/preservation/e.png"
+      }
+    ]
+  },
+  {
+    "id": "Neighborhoods",
+    "image": "/static/icons/neighborhoods.jpeg",
+    "timeRange": "Jun 2017 - Aug 2017",
+    "title": "Software Engineer Intern",
     "paragraphs": [
       {
         "title": "THis is some stuff I did",
@@ -100,11 +121,11 @@
   {
     "id": "Firestarter",
     "image": "/static/icons/firestarter.png",
-    "timeRange": "May 2019 - May 2020",
-    "title": "Software Engineer",
+    "timeRange": "Jan 2019 - Apr 2019",
+    "title": "",
     "paragraphs": [
       {
-        "title": "THis is some stuff I did",
+        "title": "Purdue's acclaimed startup incubator",
         "paragraph": "This is a paragraph for some stuff i did"
       }
     ],
@@ -113,12 +134,12 @@
   {
     "id": "DoIT",
     "image": "/static/icons/DOIT.jpg",
-    "timeRange": "May 2019 - May 2020",
-    "title": "Software Engineer",
+    "timeRange": "Jul 2014 - Sep 2014",
+    "title": "Technology Intern",
     "paragraphs": [
       {
-        "title": "THis is some stuff I did",
-        "paragraph": "This is a paragraph for some stuff i did"
+        "title": "My first job in the tech sector",
+        "paragraph": ""
       }
     ],
     "imageContent": []
