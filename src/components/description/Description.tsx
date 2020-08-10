@@ -11,7 +11,7 @@ interface DescriptionParams {
 const generateDescriptionImageCarousel = (images: any[]): JSX.Element | null => {
   if(images.length > 0){
     return (
-        <ImageGallery additionalClass="image-carousel" items={images}/>
+      <ImageGallery additionalClass="image-carousel" items={images}/>
     );
   } else {
     return null;

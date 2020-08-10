@@ -1,15 +1,17 @@
 .image-carousel {
   display: flex;
-  flex-grow: 1;
   align-items:center;
   justify-content: center;
   margin-top: 20px;
+  width: 85%;
+  max-width: auto;
 }
 .carousel-container {
   display: flex;
   align-items:center;
   justify-content: center;
   min-height: min-content;
+  max-width: min-content;
 }
 
 .description-container{
@@ -46,6 +48,7 @@ background-color: #73829F;
   flex-direction: row;
   width: 100%;
   margin-bottom: 40px;
+  min-height: min-content;
 }
 
 .description-header-image {
@@ -57,6 +60,7 @@ background-color: #73829F;
   align-items: center;
   border-radius: 10px;
   background-color: #FFFFFF;
+  min-height: min-content;
 }
 
 .description-header-text {
