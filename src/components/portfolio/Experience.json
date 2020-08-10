@@ -65,8 +65,12 @@
     "title": "Software Engineer Contractor",
     "paragraphs": [
       {
-        "title": "THis is some stuff I did",
-        "paragraph": "This is a paragraph for some stuff i did"
+        "title": "Enhancing Microsoft's Open Source Visual Object Tracking Tool",
+        "paragraph": "I added functionality to an open source project to help a company, Oqullo, have a better user experience while labelling data. With such a large quantity of data to label, it was intractable to label objects for every frame in a video."
+      },
+      {
+        "title": "Application Overview",
+        "paragraph": "This is a React Proton application written in typescript, NodeJS backend, and MongoDB database. A labeller will tag an object in the frame and give it children tags, to further identify the object. On the next frame when creating a tag, if the user again tags with a child tag similar to the previous object it would recommend that tagging number. As the data set gets larger, it recommends objects based on how many tags in common the object has."
       }
     ],
     "imageContent": []
@@ -112,8 +116,12 @@
     "title": "Software Engineer Intern",
     "paragraphs": [
       {
-        "title": "Online real estate startup",
-        "paragraph": "This is a paragraph for some stuff i did"
+        "title": "Online real estate startup, my first Software Engineering job",
+        "paragraph": "I worked closely with their marketing team to create an internal tool to automate their online advertisement placements for Google Ads. This tool was my first enterprise application that I developed. They still use the tool to this day."
+      },
+      {
+        "title": "Application Overview",
+        "paragraph": "The tool was created in vanilla Java using the Google AdWords API. Given a CSV file generated from their reporting tool my application would select a region of houses to create advertisements for. The advertisements would target a certain geographical region for more impact and precision per advertisement, while reducing cost. The advirertisements increased their traffic, and created sales for the company."
       }
     ],
     "imageContent": []
@@ -125,8 +133,12 @@
     "title": "Cohort Member",
     "paragraphs": [
       {
-        "title": "Purdue's acclaimed startup incubator",
-        "paragraph": "testing"
+        "title": "Taking our business idea to Purdue's startup incubator",
+        "paragraph": "During my Senior year an Environmental Engineer and I had an idea and wanted to turn it into a business. We participated in Purdue's firestarter program to asses our business concept."
+      },
+      {
+        "title": "Creating a product from a concept",
+        "paragraph": "We underwent market validation, customer discovery, and pitch presentations. Market validation allowed me to see that you don't just need an idea, but the proper confditions for an idea to make sense. Calling up potential customers, and talking with them to understand their pain points greatly improved how I saw problems in a business and what actions could be taken to fix them. Finally, pitch presentations refined my business communication skills. Teaching me to reach a wider audience and with greater effect."
       }
     ],
     "imageContent": []

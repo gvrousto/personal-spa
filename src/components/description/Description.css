@@ -107,14 +107,13 @@ background-color: #73829F;
   }
   .description-content {
     width: 85%;
-    margin-left: 0px;
+    margin-left: 20px;
   }
   .description-item {
     margin-left: 20px;
   }
   .description-body {
     flex-direction: column-reverse;
-    align-items: center;
   }
   .description-header-image {
     margin-left: 20px;
