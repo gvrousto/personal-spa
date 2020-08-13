@@ -73,7 +73,20 @@
         "paragraph": "This is a React Proton application written in typescript, NodeJS backend, and MongoDB database. A labeller will tag an object in the frame and give it children tags, to further identify the object. On the next frame when creating a tag, if the user again tags with a child tag similar to the previous object it would recommend that tagging number. As the data set gets larger, it recommends objects based on how many tags in common the object has."
       }
     ],
-    "imageContent": []
+    "imageContent": [
+      {
+        "original": "/static/labeling/a.png",
+        "thumbnail": "/static/labeling/a.png"
+      },
+      {
+        "original": "/static/labeling/b.png",
+        "thumbnail": "/static/labeling/b.png"
+      },
+      {
+        "original": "/static/labeling/c.png",
+        "thumbnail": "/static/labeling/c.png"
+      }
+    ]
   },
   {
     "id": "Preservation",
