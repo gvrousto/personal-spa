@@ -6,12 +6,28 @@
     "title": "Software Engineer",
     "paragraphs": [
       {
-        "title": "THis is some stuff I did",
-        "paragraph": "This is a paragraph for some stuff i did"
+        "title": "Led Team in Recreating Personal Loan Payment Application",
+        "paragraph": "I led the development of an initiative to create a better user experience for personal loan customers. We created a new frontend application in React and a backend application using Java Spring. As the lead I helped groom the User Stories, provided guidance, and engaged in paired programming sessions with team members."
       },
       {
-        "title": "THis is some stuff I did",
-        "paragraph": "This is a paragraph for some stuff i did"
+        "title": "Microservices",
+        "paragraph": "I have developed many microservices while working for Discover. All of them are REST web services made with Java Spring that were designed to be quick and able to easily scale horizontally. These applications allow us to minimize impact to existing services and scope of our test cases when developing a feature."
+      },
+      {
+        "title": "Code Quality and Reliability",
+        "paragraph": "As a developer at Discover, I always focus on creating a product that has been tested thoroughly. I spearheaded an initiative to automate our User Acceptance Tests as we developed our products. This greatly decreased our defects while testing, and incidents when we deployed to production. While at the same time, allowing us to create more code faster. Because of my interest in delivering a reliable product, I was selected to be a part of a Test Driven Design pilot program. In this program "
+      },
+      {
+        "title": "Extreme Automation",
+        "paragraph": "I strive to automate as many steps of the development process as I can when engineering. My team at Discover has come a long way in our Continuous Improvement and Continuous Delivery journey. We want to be releasing quality, tested code as quickly as we can and as often as we can. With that as our driving motivation I created a Universal Jenkins pipeline that can deploy any microservice. This allows us to create more functional code without being bogged down with devops."
+      },
+      {
+        "title": "Critical Incident Fixes",
+        "paragraph": "While I have mostly created new applications at Discover I have also been tasked to fix critical incidents that occur in the production environment. These incidents occured in the legacy code base and required a code change to fix. During these experiences I learned how to diagnose the programming issue behind the incident and work with the business to come up with a solution. "
+      },
+      {
+        "title": "Externalized Configuration",
+        "paragraph": "While creating microservices for Discover we ran into the problem of wanting to change configurations on the fly. This means an application in the production environment was not configured correctly and was affecting customers. Intead of having to redeploy again with updated configurations we can externalize those configurations with a cloud config server. Any configuration changes could be made without disrupting any traffic or taking down the service."
       }
     ],
     "imageContent": []
