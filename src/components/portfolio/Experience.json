@@ -3,7 +3,7 @@
     "id": "Discover",
     "image": "/static/icons/discover.svg",
     "timeRange": "Jun 2019 - Present",
-    "title": "Software Engineer",
+    "title": "Associate Software Engineer",
     "paragraphs": [
       {
         "title": "Led Team in Recreating Personal Loan Payment Application",
@@ -24,10 +24,6 @@
       {
         "title": "Critical Incident Fixes",
         "paragraph": "While I have mostly created new applications at Discover I have also been tasked to fix critical incidents that occur in the production environment. These incidents occured in the legacy code base and required a code change to fix. During these experiences I learned how to diagnose the programming issue behind the incident and work with the business to come up with a solution. "
-      },
-      {
-        "title": "Externalized Configuration",
-        "paragraph": "While creating microservices for Discover we ran into the problem of wanting to change configurations on the fly. This means an application in the production environment was not configured correctly and was affecting customers. Intead of having to redeploy again with updated configurations we can externalize those configurations with a cloud config server. Any configuration changes could be made without disrupting any traffic or taking down the service."
       }
     ],
     "imageContent": []
@@ -108,7 +104,7 @@
     "id": "Preservation",
     "image": "/static/icons/preservation.png",
     "timeRange": "Jan 2020 - Feb 2020",
-    "title": "Web Developer",
+    "title": "Web Development Contractor",
     "paragraphs": [
       {
         "title": "Web based shopping experience for a new clothing line",

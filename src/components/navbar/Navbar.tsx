@@ -66,7 +66,7 @@ const Navbar = () => {
           <Link onClick={() => {setExpanded(false); setActivePath("/portfolio");}} className="navbar-text" to="/portfolio">Gus Vroustouris</Link>
           {expanded ? <NavExit onClick={()=>setExpanded(!expanded)} className="navbar-svg" /> : <NavMenu onClick={()=>setExpanded(!expanded)} className="navbar-svg" /> }
         </div>
-        <div className="portfolio-text">I am a Full Stack Software Engineer, with a passion for automation.</div>
+        <div className="portfolio-text">I am a Full Stack Software Engineer with a passion for automation.</div>
         {generateMobileNav(expanded, activePath, setExpanded, setActivePath)}
       </div>
     )
@@ -104,7 +104,7 @@ const Navbar = () => {
             </Link>
         </div>
         <div className="portfolio-text">
-          I am a Full Stack Software Engineer, with a passion for automation.
+          I am a Full Stack Software Engineer with a passion for automation.
         </div>
       </div>
     )

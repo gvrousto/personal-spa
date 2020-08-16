@@ -14,6 +14,7 @@
 }
 
 .navbar-text {
+  font-weight: bold;
   color: #FFFFFF;
   font-size: 40px;
   font-family: 'Raleway';
@@ -36,6 +37,7 @@
   background-color: #FFFFFF;
   color: #73829F;
   font-size: 30px;
+  font-weight: bold;
   border: none;
 }
 
@@ -52,6 +54,7 @@
   border-color: #FFFFFF;
   border: solid;
   border-width: medium;
+  font-weight: bold;
   outline:0;
 }
 
@@ -106,7 +109,7 @@
   color: #FFFFFF;
   font-family: 'Raleway';
   margin-left: 70px;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 
@@ -121,8 +124,9 @@
   .navbar-text {
     color: #FFFFFF;
     font-family: 'Raleway';
+    font-weight: bold;
     font-size: 32px;
-    margin-left: 70px;
+    margin-left: 20px;
   }
   .navbar-svg {
     margin-right: 30px;
@@ -148,7 +152,7 @@
     justify-content: space-between;
   }
   .navbar-text {
-    margin-left: 10px;
+    margin-left: 20px;
   }
   .navbar-svg {
     margin-right: 15px;
