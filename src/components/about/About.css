@@ -2,15 +2,8 @@
   display: flex;
   flex-grow: 1;
   width: 100%;
-  justify-content: space-around;
   background-color: #73829F;
   overflow-y: auto;
-}
-
-.bubble-text{
-  font-weight: bold;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 .about-container::-webkit-scrollbar {
@@ -25,15 +18,18 @@
   background-color: #FFFFFF;
   border-radius: 5px;
 }
+
 .about-content {
   display: flex;
   align-items: center;
   flex-direction: column;
   color: #FFFFFF;
   font-family: "Raleway";
-  min-height: min-content;
-  font-size: 22px;
+  height: min-content;
+  width: 40%;
+  font-size: 20px;
 }
+
 .about-image-container {
   height: 300px;
 }
@@ -41,16 +37,31 @@
   max-width: 100%;
   max-height: 100%
 }
+
 .about-paragraph {
-  width: 400px;
+  margin-left: 70px;
+  margin-right: 20px;
+  width: auto;
   height: min-content;
+}
+
+.helper-container {
+  display: flex;
+  flex-grow: 1;
 }
 
 .about-experience {
   display: flex;
-  min-height: min-content;
+  height: min-content;
   flex-direction: column;
   font-family: "Raleway";
+  margin-left: 20px;
+}
+
+.bubble-text{
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .experience-bubble{
@@ -62,7 +73,7 @@
   border-radius: 13px;
   background-color: #FFFFFF;
   color: #73829F;
-  font-size: 30px;
+  font-size: 25px;
   border: none;
 }
 
@@ -74,7 +85,8 @@
 }
 
 .experience-content {
-  font-size: 22px;
+  width: auto;
+  font-size: 20px;
   color: #FFFFFF;
   padding-bottom: 20px;
 }
@@ -82,7 +94,7 @@
 .about-skills {
   font-family: "Raleway";
   display: flex;
-  min-height: min-content;
+  height: min-content;
   flex-direction: column;
   color: #FFFFFF;
 }
@@ -104,58 +116,45 @@
 
 .skill-item {
   display: flex;
+  overflow-wrap: break-word;
   align-items: center;
-  font-size: 24px;
+  font-size: 20px;
+  margin-left: 10px;
 }
 
-@media only screen and (max-width: 768px) {
-  .about-image-container {
-    height: 200px;
+@media only screen and (max-width: 787px) {
+  .about-container {
+    flex-direction: column;
+  }
+  .about-content {
+    width: 100%;
+  }
+  .helper-container {
+    margin-top: 20px;
+  }
+  .about-experience {
+    width: 50%;
+  }
+  .about-skills {
+    width: 50%;
   }
   .about-paragraph {
-    width: 300px;
+    margin-left: 20px;
   }
 }
 
 @media only screen and (max-width: 425px) {
-  .about-container {
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    background-color: #73829F;
-    justify-content: flex-start;
-    overflow: auto;
-  }
   .about-content {
-    width: 90%;
-    align-items: center;
+    font-size: 17px;
+  }
+  .helper-container {
+    flex-direction: column;
   }
   .about-experience {
-    width: 85%;
-    align-items: flex-start;
-  }
-  .about-paragraph {
     width: auto;
-    height: min-content;
-    width: auto;
-    font-size: 18px;
   }
   .about-skills {
-    width: 90%;
-    align-items: flex-start;
-  }
-  .skill-item:before {
-    content:"\A";
-    width:4px;
-    height:4px;
-    border-radius:50%;
-    background: #FFFFFF;
-    display:inline-block;
-    margin-right: 8px;
-  }
-  .skill-item {
-    font-size: 18px;
+    margin-left: 20px;
+    width: auto;
   }
 }
