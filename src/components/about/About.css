@@ -62,6 +62,15 @@
   font-weight: bold;
   padding-left: 10px;
   padding-right: 10px;
+  color: #73829F;
+}
+
+.about-link {
+  text-decoration: none;
+}
+
+.about-link:hover {
+  text-decoration: none;
 }
 
 .experience-bubble{
@@ -75,6 +84,10 @@
   color: #73829F;
   font-size: 25px;
   border: none;
+}
+
+.experience-bubble:hover {
+  cursor: pointer;
 }
 
 .experience-title {

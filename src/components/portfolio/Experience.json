@@ -7,23 +7,23 @@
     "paragraphs": [
       {
         "title": "Led Team in Recreating Personal Loan Payment Application",
-        "paragraph": "I led the development of an initiative to create a better user experience for personal loan customers. We created a new frontend application in React and a backend application using Java Spring. As the lead I helped groom the User Stories, provided guidance, and engaged in paired programming sessions with team members."
+        "paragraph": "I led the development of an initiative to create a better user experience for personal loan customers. We created a new front end application in React and a backend application using Java Spring. As the lead, I helped groom the User Stories and provided guidance to my team members by engaging in paired programming sessions."
       },
       {
         "title": "Microservices",
-        "paragraph": "I have developed many microservices while working for Discover. All of them are REST web services made with Java Spring that were designed to be quick and able to easily scale horizontally. These applications allow us to minimize impact to existing services and scope of our test cases when developing a feature."
+        "paragraph": "I have developed many microservices while working for Discover. All of them are REST web services made with Java Spring that were designed to be quick and easy to scale horizontally. These applications allow us to minimize impact to existing services and scope of our test cases when developing a feature."
       },
       {
         "title": "Code Quality and Reliability",
-        "paragraph": "As a developer at Discover, I always focus on creating a product that has been tested thoroughly. I spearheaded an initiative to automate our User Acceptance Tests as we developed our products. This greatly decreased our defects while testing, and incidents when we deployed to production. While at the same time, allowing us to create more code faster. Because of my interest in delivering a reliable product, I was selected to be a part of a Test Driven Design pilot program. In this program "
+        "paragraph": "As a developer at Discover, I always focus on creating a product that has been tested thoroughly. I spearheaded an initiative to automate our User Acceptance Tests as we developed our products. This greatly decreased our defects while testing, as well as incidents when we deployed to production; the benefits of this automation allowed us to create more code faster. As a result of my success in delivering reliable products, I was selected to be a part of a Test Driven Design (TDD) pilot program."
       },
       {
         "title": "Extreme Automation",
-        "paragraph": "I strive to automate as many steps of the development process as I can when engineering. My team at Discover has come a long way in our Continuous Improvement and Continuous Delivery journey. We want to be releasing quality, tested code as quickly as we can and as often as we can. With that as our driving motivation I created a Universal Jenkins pipeline that can deploy any microservice. This allows us to create more functional code without being bogged down with devops."
+        "paragraph": "I strive to automate as many steps of the development process as I can when engineering. My team at Discover has come a long way in our Continuous Integration and Continuous Delivery journey. We want to be releasing quality, tested code as quickly as we can and as often as we can. With that as our driving motivation I created a Universal Jenkins pipeline that can deploy any microservice. This allows us to create more functional code without being bogged down with DevOps."
       },
       {
         "title": "Critical Incident Fixes",
-        "paragraph": "While I have mostly created new applications at Discover I have also been tasked to fix critical incidents that occur in the production environment. These incidents occured in the legacy code base and required a code change to fix. During these experiences I learned how to diagnose the programming issue behind the incident and work with the business to come up with a solution. "
+        "paragraph": "While my responsibilities at Discover have mostly centered around creating new applications, I have also been tasked to fix critical incidents that occur in the production environment. These incidents occured in the legacy code base and required a code change to fix. During these experiences I learned how to diagnose the programming issue behind the incident and architect a solution with our business partners."
       }
     ],
     "imageContent": []
@@ -36,11 +36,11 @@
     "paragraphs": [
       {
         "title": "Flagship Application for Oqullo, a property analysis startup.",
-        "paragraph": "Coordinated closely with the founders to create an MVP1 to showcase their property analysis abilities to customers. Oqullo, the application, was created from scratch with a React frontend, NodeJS backend, and MongoDB database."
+        "paragraph": "I coordinated closely with the founders to create an MVP1 to showcase their property analysis abilities to customers. Oqullo, the application, was created from scratch with a React front end, NodeJS backend, and MongoDB database."
       },
       {
         "title": "Application Overview",
-        "paragraph": "The application visualizes path density of customers on a property, and the store's capture rate of customers on the path. Customer path direction from a selected source. Other stores a customer visited from a selected source. A primary demographic breakdown with a sunburst chart. All which are filterable by time range, gender, and age demographic."
+        "paragraph": "The application helps visualize complex property analysis data in a number of ways: path density of customers on a property, each store's capture rate of customers on the path, the customer’s path direction from a selected source, other stores a customer visited from a selected source, and a primary demographic breakdown with a sunburst chart. In order to analyze customer patterns more granularly, every page is filterable by time range, gender, and age demographic."
       }
     ],
     "imageContent": [
@@ -78,11 +78,11 @@
     "paragraphs": [
       {
         "title": "Enhancing Microsoft's Open Source Visual Object Tracking Tool",
-        "paragraph": "I added functionality to an open source project to help a company, Oqullo, have a better user experience while labelling data. With such a large quantity of data to label, it was intractable to label objects for every frame in a video."
+        "paragraph": "I added functionality to an open source project to help a company, Oqullo, have a better user experience while labelling data. With such a large quantity of data to label, it was unrealistic to label objects unassisted for every frame in a video."
       },
       {
         "title": "Application Overview",
-        "paragraph": "This is a React Proton application written in typescript, NodeJS backend, and MongoDB database. A labeller will tag an object in the frame and give it children tags, to further identify the object. On the next frame when creating a tag, if the user again tags with a child tag similar to the previous object it would recommend that tagging number. As the data set gets larger, it recommends objects based on how many tags in common the object has."
+        "paragraph": "This is a React Proton application written in typescript, with a NodeJS backend, and MongoDB database. A labeller will tag an object in the frame and give it children tags in order to further identify the object. On the next frame when labeling an object, if the user again labels with children tags similar to the previous object, then it would recommend that objects unique id. As the data set gets larger, the application recommends objects based on how many tags in common the object has."
       }
     ],
     "imageContent": [
@@ -108,7 +108,7 @@
     "paragraphs": [
       {
         "title": "Web based shopping experience for a new clothing line",
-        "paragraph": "This was my first production application that received traffic from users. I learned a great deal about working with a customer to create a platform that fit their vision. It was also an interesting experience to see how users interacted with the platform, and what my short comings for UX/UI were. This was a React application hosted on GitHub Pages making GraphQL calls to Shopify API."
+        "paragraph": "This was my first personal application that received traffic from users. I learned a great deal about working with a business counterpart to create a platform that fit their vision. It was also an interesting experience to see how users interacted with the platform, as well as what my shortcomings for UX/UI were. This was a React application hosted on GitHub Pages that made GraphQL calls to Shopify API."
       }
     ],
     "imageContent": [
@@ -142,11 +142,11 @@
     "paragraphs": [
       {
         "title": "Online real estate startup, my first Software Engineering job",
-        "paragraph": "I worked closely with their marketing team to create an internal tool to automate their online advertisement placements for Google Ads. This tool was the first enterprise application that I developed. They still use the tool to this day."
+        "paragraph": "I worked closely with the Neighborhoods marketing team to create an internal tool to automate their online advertisement placements for Google Ads. This tool was the first enterprise application that I developed, and is still used by the company to this day."
       },
       {
         "title": "Application Overview",
-        "paragraph": "The tool was created in vanilla Java using the Google AdWords API. Given a CSV file generated from their reporting tool my application would select a region of houses to create advertisements for. The advertisements would target a certain geographical region for more impact and precision per advertisement, while reducing cost. The advirertisements increased their traffic, and created sales for the company."
+        "paragraph": "The tool was created in vanilla Java using the Google AdWords API. Given a CSV file generated from their reporting tool my application would select a region of houses to create advertisements for. These advertisements would target a certain geographical region for more impact and precision, while at the same time reducing cost. The advertisements increased traffic and created sales for the company."
       }
     ],
     "imageContent": []
@@ -159,11 +159,11 @@
     "paragraphs": [
       {
         "title": "Taking our business idea to Purdue's startup incubator",
-        "paragraph": "During my Senior year an Environmental Engineer and I had an idea and wanted to turn it into a business. We participated in Purdue's firestarter program to asses our business concept."
+        "paragraph": "During my senior year an Environmental Engineer and I had an idea and wanted to turn it into a business. We participated in Purdue's firestarter program to assess our business concept."
       },
       {
         "title": "Creating a product from a concept",
-        "paragraph": "We underwent market validation, customer discovery, and pitch presentations. Market validation allowed me to see that you don't just need an idea, but the proper confditions for an idea to make sense. Calling up potential customers, and talking with them to understand their pain points greatly improved how I saw problems in a business and what actions could be taken to fix them. Finally, pitch presentations refined my business communication skills. Teaching me to reach a wider audience and with greater effect."
+        "paragraph": "We underwent market validation, customer discovery, and pitch presentations. Market validation allowed me to see that an idea alone isn’t enough; proper conditions and a deeper understanding are needed for an idea to make sense. Calling up potential customers and talking with them to understand their pain points greatly improved how I detect problems and come up with solutions. Finally, pitch presentations refined my business communication skills and taught me to reach a wider audience with greater effect."
       }
     ],
     "imageContent": []
@@ -176,7 +176,7 @@
     "paragraphs": [
       {
         "title": "Department of Innovation and Technology for the City of Chicago",
-        "paragraph": "My very first job working in the technology sector. I had a passion for computers since a young age. I first started programming as a Freshman in Highschool. During my Junior I got the oppurtunity to work for DoIT. While I didn't engineer any software during my time there, I was very hands on with the technology. My primary focus was reimaging computers and providing technical support for all the city's employees. Having this job made me understand this is what I wanted to be a part of for the rest of my life."
+        "paragraph": "My very first job working in the technology sector. I have had a passion for computers since a young age. I first started programming as a freshman in high school. During my junior year, I got my very first opportunity to work in the technology sector for the Department of Innovation and Technology (DoIT) for the city of Chicago. While I didn't engineer any software during my time there, I was very hands-on with the technology. My primary focus was reimaging computers and providing technical support for all the city's employees. This initial exposure to the technology sector reaffirmed my passion for all things computing, and set me on my current path."
       }
     ],
     "imageContent": []

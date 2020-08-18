@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./About.css"
 
 const About = () => {
-  let paragraph = "I am a Software Engineer currently working for Discover Financial Services. Primarily a backend developer, I have created multiple full stack applications over the past year; some of which are featured in my portfolio. I always seek to challenge myself and grow by finding solutions to problems with the most cutting edge tools available. I have a drive to understand more about machine learning.";
+  let paragraph = "I am a Software Engineer currently working for Discover Financial Services. Primarily a backend developer, I have created multiple full stack applications over the past year, some of which are featured in my portfolio. I always seek to challenge myself and grow by finding solutions to problems with the most cutting edge tools available. I have a drive to understand more about machine learning.";
 
   return (
     <div className="about-container">
@@ -21,9 +22,11 @@ const About = () => {
           </div>
           <div className="experience-content">
             <div className="experience-bubble">
-              <div className="bubble-text">
-                Discover
-              </div>
+              <Link className="about-link" to={"/description/Discover"}>
+                <div className="bubble-text">
+                  Discover
+                </div>
+              </Link>
             </div>
             <div className="time-range">
               June 2019 - Present
@@ -40,9 +43,11 @@ const About = () => {
           </div>
           <div className="experience-content">
             <div className="experience-bubble">
-              <div className="bubble-text">
-                Oqullo
-              </div>
+              <Link className="about-link" to={"/description/Oqullo"}>
+                <div className="bubble-text">
+                  Oqullo
+                </div>
+              </Link>
             </div>
             <div className="time-range">
               Feb 2020 - May 2020
@@ -53,9 +58,11 @@ const About = () => {
           </div>
           <div className="experience-content">
             <div className="experience-bubble">
-              <div className="bubble-text">
-                Neighborhoods
-              </div>
+              <Link className="about-link" to={"/description/Neighborhoods"}>
+                <div className="bubble-text">
+                  Neighborhoods
+                </div>
+              </Link>
             </div>
             <div className="time-range">
               June 2017 - Aug 2017
@@ -66,9 +73,11 @@ const About = () => {
           </div>
           <div className="experience-content">
             <div className="experience-bubble">
-              <div className="bubble-text">
-                DoIT
-              </div>
+              <Link className="about-link" to={"/description/DoIT"}>
+                <div className="bubble-text">
+                  DoIT
+                </div>
+              </Link>
             </div>
             <div className="time-range">
               July 2014 - Sept 2014
@@ -87,9 +96,9 @@ const About = () => {
               <div className="skill-item">Jenkins (CI/CD automation)</div>
               <div className="skill-item">Cucumber Test Scripts</div>
               <div className="skill-item">User Story Estimation and Distribution</div>
-              <div className="skill-item">Public Speaking and Presentations</div>
               <div className="skill-item">NodeJS</div>
               <div className="skill-item">Databases (MongoDB / Redis / MySQL)</div>
+              <div className="skill-item">Public Speaking and Presentations</div>
               <div className="skill-item">Making Friends</div>
             </div>
         </div>
