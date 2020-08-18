@@ -26,6 +26,7 @@
   color: #FFFFFF;
   font-family: "Raleway";
   height: min-content;
+  min-height: min-content;
   width: 40%;
   font-size: 20px;
 }
@@ -43,6 +44,7 @@
   margin-right: 20px;
   width: auto;
   height: min-content;
+  min-height: min-content;
 }
 
 .helper-container {
@@ -53,6 +55,7 @@
 .about-experience {
   display: flex;
   height: min-content;
+  min-height: min-content;
   flex-direction: column;
   font-family: "Raleway";
   margin-left: 20px;
@@ -108,6 +111,7 @@
   font-family: "Raleway";
   display: flex;
   height: min-content;
+  min-height: min-content;
   flex-direction: column;
   color: #FFFFFF;
 }
