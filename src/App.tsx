@@ -26,7 +26,7 @@ function App() {
             <Description />
           </Route>
           <Route>
-            <Redirect to="/portfolio"/>
+            <Redirect to="/about"/>
           </Route>
         </Switch>
       </div>
